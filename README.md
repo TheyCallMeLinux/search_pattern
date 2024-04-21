@@ -43,7 +43,7 @@ python search_pattern.py --interactive
 ```
  then press enter 
 `Enter pattern: example of search`
-Enter your sentence or word, then press `Enter`
+Enter your search string, then press `Enter`
 `Enter directory (press Enter for current directory): /path/to/directory`
 Enter the search path and or press Enter to select current working directory
 
