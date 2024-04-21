@@ -1,4 +1,4 @@
-# search_pattern.py Pattern Search Tool
+# search_pattern.py - Python pattern search tool
 
 This Python script is designed to search for a specific pattern recursively within files in a directory.
 
