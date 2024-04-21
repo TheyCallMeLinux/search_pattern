@@ -5,7 +5,7 @@ import chardet
 from multiprocessing import Pool
 
 # Compile regex pattern outside the loop
-pattern = re.compile(sys.argv[1])
+pattern = None
 
 def detect_encoding(file_path):
     with open(file_path, 'rb') as f:
@@ -44,22 +44,31 @@ def search_pattern(directory, compiled_pattern):
     if not found:
         print("No matching lines found.")
 
-if __name__ == "__main__":
-    # Check if user provided a pattern
-    if len(sys.argv) < 2:
-        print("Usage: python search_pattern.py <pattern> [<dir>]")
-        sys.exit(1)
-
-    pattern_arg = sys.argv[1]
-
-    # Check if directory is provided
-    if len(sys.argv) == 3:
-        directory_arg = sys.argv[2]
+def parse_input():
+    global pattern
+    if "--interactive" in sys.argv:
+        pattern = input("Enter pattern: ")
+        directory_arg = input("Enter directory (press Enter for current directory): ") or '.'
     else:
-        directory_arg = '.'
+        if len(sys.argv) < 2:
+            print("Usage: python search_pattern.py [--interactive] <pattern> [<dir>]")
+            sys.exit(1)
+        else:
+            pattern = sys.argv[1]
+
+        # Check if directory is provided
+        if len(sys.argv) == 4:
+            directory_arg = sys.argv[3]
+        elif len(sys.argv) == 3:
+            directory_arg = sys.argv[2]
+        else:
+            directory_arg = '.'
 
     # Store the compiled regex pattern
-    pattern = re.compile(pattern_arg)
+    pattern = re.compile(pattern)
 
     # Search for the pattern recursively in the specified directory or current directory if not specified
     search_pattern(directory_arg, pattern)
+
+if __name__ == "__main__":
+    parse_input()
