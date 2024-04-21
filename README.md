@@ -23,7 +23,7 @@ then
 
 - Clone this project or download the master in zip and unzip it somewhere, example using git
 ```bash
-git clone https://github.com/TheyCallMeLinux/search_pattern.py.git && cd search_pattern.py`
+git clone https://github.com/TheyCallMeLinux/search_pattern.py.git && cd search_pattern.py
 ```
 
 ## Usage
