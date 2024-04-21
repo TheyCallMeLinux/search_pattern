@@ -1,4 +1,4 @@
-#Pattern Search Tool
+# Pattern Search Tool
 
 This Python script is designed to search for a specific pattern recursively within files in a directory.
 Usage
@@ -14,7 +14,7 @@ Run the script providing the pattern to search for and optionally the directory 
 - <pattern>: The pattern to search for in the files.
 - [<directory>] (optional): The directory to search in. If not provided, the current directory will be searched.
 
-###Interactive Mode
+### Interactive Mode
 
 Alternatively, you can run the script in interactive mode by adding the --interactive flag:
 
@@ -24,7 +24,7 @@ In interactive mode, you will be prompted to enter the pattern and the directory
 
 *Note: Auto-complete for directories is not supported in interactive mode in this current version of the script.
 *
-###Example running CLI, not interactive
+### Example running CLI, not interactive
 
 Search for the pattern "example" in the current directory:
 
