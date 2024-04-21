@@ -30,7 +30,8 @@ Install the required libraries using pip:
 
 Alternatively, you can run the script in interactive mode by adding the `--interactive` flag. In interactive mode, you will be prompted to enter the pattern and the directory to search in.  The script does not store searches history therefore enhancing privacy. 
 
-In your favorite terminal type,
+In your favorite terminal type:
+
 `python search_pattern.py --interactive`
  then press enter
  
