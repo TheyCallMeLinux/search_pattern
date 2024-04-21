@@ -60,10 +60,9 @@ Search for a multi word pattern "My Awesome Theme" in the user's Downloads direc
 
 
 ### Todo
-
--i, --ignore-case: Perform case-insensitive search.
--r, --recursive: Recursively search within subdirectories.
--h, --help: Display the help message and exit.
+- -i, --ignore-case: Perform case-insensitive search.
+- -r, --recursive: Recursively search within subdirectories.
+- -h, --help: Display the help message and exit.
 
 ### Contributing
 
