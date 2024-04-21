@@ -3,13 +3,16 @@
 This Python script is designed to search for a specific pattern recursively within files in a directory.
 Usage
 
-Features:
+## Features:
 
-    Efficient Search: Utilizes multi-threading to concurrently search through multiple files, enhancing search speed and performance.
+#### Efficient Search: 
+Utilizes multi-threading to concurrently search through multiple files, enhancing search speed and performance.
 
-    Flexible Pattern Matching: Employs regular expressions to allow for versatile pattern matching, enabling users to specify complex search criteria.
+#### Flexible Pattern Matching: 
+Employs regular expressions to allow for versatile pattern matching, enabling users to specify complex search criteria.
 
-    Automatic Encoding Detection: Detects file encodings to ensure seamless processing of text files encoded in various formats, enhancing compatibility.
+#### Automatic Encoding Detection: 
+Detects file encodings to ensure seamless processing of text files encoded in various formats, enhancing compatibility.
 
 Install the required libraries using pip:
 `pip install chardet`
