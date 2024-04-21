@@ -16,7 +16,7 @@ This Python script is designed to search for a specific pattern recursively with
 
 Install the required libraries using pip:
 `pip install chardet`
-
+Clone this project or download the master in zip and unzip it somewhere, example using git
 `git clone https://github.com/TheyCallMeLinux/search_pattern.py.git && cd search_pattern.py`
 
 
