@@ -67,7 +67,7 @@ python search_pattern.py 'My Awesome Theme' ~/Downloads
 
 ### Todo
 - -i, --ignore-case: Perform case-insensitive search.
-- -r, --recursive: Recursively search within subdirectories.
+~~- -r, --recursive: Recursively search within subdirectories.~~ _Default_
 - -h, --help: Display the help message and exit.
 
 ### Contributing
