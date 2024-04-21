@@ -1,6 +1,7 @@
-# Pattern Search Tool
+# search_pattern.py Pattern Search Tool
 
 This Python script is designed to search for a specific pattern recursively within files in a directory.
+
 
 #### Features:
 
@@ -54,3 +55,28 @@ Search for the pattern "example" in the current directory:
 Search for a multi word pattern "My Awesome Theme" in the user's Downloads directory:
 
 `python search_pattern.py 'My Awesome Theme' ~/Downloads`
+
+------------
+
+
+### Todo
+
+-i, --ignore-case: Perform case-insensitive search.
+-r, --recursive: Recursively search within subdirectories.
+-h, --help: Display the help message and exit.
+
+### Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+### Provided As Is
+
+This script is provided as is, without any warranty or guarantee. Use at your own risk.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+### Acknowledgments
+
+This script was developed by TheyCallMeLinux.
+
