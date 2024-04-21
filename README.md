@@ -41,14 +41,10 @@ In your favorite terminal type:
 ```bash
 python search_pattern.py --interactive
 ```
- then press enter
- ```bash
-Enter pattern: example of search
-```
+ then press enter 
+`Enter pattern: example of search`
 Enter your sentence or word, then press `Enter`
-```bash
 `Enter directory (press Enter for current directory): /path/to/directory`
-```
 Enter the search path and or press Enter to select current working directory
 
 
