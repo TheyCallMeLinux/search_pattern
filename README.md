@@ -75,7 +75,8 @@ This script is provided as is, without any warranty or guarantee. Use at your ow
 
 ### License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [MIT](https://opensource.org/license/mit "MIT") license for details.
+
 ### Acknowledgments
 
 This script was developed by TheyCallMeLinux.
