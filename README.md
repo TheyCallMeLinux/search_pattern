@@ -15,18 +15,21 @@ This Python script is designed to search for a specific pattern recursively with
 ## Installation
 
 - Install the required libraries using pip:
- `pip install chardet`
+ ```bash
+ pip install chardet
+```
 
 then
 
 - Clone this project or download the master in zip and unzip it somewhere, example using git
- `git clone https://github.com/TheyCallMeLinux/search_pattern.py.git && cd search_pattern.py`
-
+```bash
+git clone https://github.com/TheyCallMeLinux/search_pattern.py.git && cd search_pattern.py`
+```
 
 ## Usage
-
-`python search_pattern.py <pattern> [<directory>]`
-
+```bash
+python search_pattern.py <pattern> [<directory>]
+```
 - <pattern>: The pattern to search for in the files.
 - [<directory>] (optional): The directory to search in. If not provided, the current directory will be searched.
 
@@ -35,14 +38,17 @@ then
 Alternatively, you can run the script in interactive mode by adding the `--interactive` flag. In interactive mode, you will be prompted to enter the pattern and the directory to search in.  The script does not store searches history therefore enhancing privacy. 
 
 In your favorite terminal type:
-
-`python search_pattern.py --interactive`
+```bash
+python search_pattern.py --interactive
+```
  then press enter
- 
-`Enter pattern: example of search` 
-Enter your sentence or word, then press Enter
-
+ ```bash
+Enter pattern: example of search
+```
+Enter your sentence or word, then press `Enter`
+```bash
 `Enter directory (press Enter for current directory): /path/to/directory`
+```
 Enter the search path and or press Enter to select current working directory
 
 
@@ -52,12 +58,13 @@ Enter the search path and or press Enter to select current working directory
 ### Example running CLI, not interactive
 
 Search for the pattern "example" in the current directory:
-
-`python search_pattern.py example`
-
+```bash
+python search_pattern.py example
+```
 Search for a multi word pattern "My Awesome Theme" in the user's Downloads directory:
-
-`python search_pattern.py 'My Awesome Theme' ~/Downloads`
+```bash
+python search_pattern.py 'My Awesome Theme' ~/Downloads
+```
 
 ------------
 
